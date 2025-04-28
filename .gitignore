@@ -5,7 +5,6 @@
 *.pyd
 .Python
 env/
-.env
 venv/*
 ENV/
 dist/
@@ -20,7 +19,6 @@ core/tests/assets
 
 # Virtual environment
 .venv/
-.vscode/
 
 *.DS_Store
 
@@ -40,3 +38,5 @@ ee/ui-component/.next
 
 ui-component/notebook-storage/notebooks.json
 ee/ui-component/package-lock.json
+config.bat
+node_modules
